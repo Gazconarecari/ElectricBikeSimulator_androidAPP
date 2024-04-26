@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Electric bike App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="hello_sub">Modify interest point</string>
+    <string name="enter_the_new_name">Enter the new name</string>
+    <string name="button_return">Close SubActivity</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="enter_the_new_latitude">Enter the new latitude</string>
+    <string name="enter_the_new_longitude">Enter the new longitude</string>
+    <string name="new_point">New Interest Point</string>
+    <string name="reload_points">Reload Points</string>
+    <string name="fab_add_new_point">Add New Interest Point</string>
+    <string name="history">History</string>
+    <string name="local">Local</string>
+    <string name="simulation">Simu</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change BOTH strings as required -->
+    <string name="back4app_app_id">NgAHRurbAR6BTTaaYVWXcWolxtQuZLg1dTqeff0M</string>
+    <string name="back4app_client_key">oDJj8TdXizmrmL10FWSsCDHWDTawqTDaETSGmBwV</string>
+
+</resources>

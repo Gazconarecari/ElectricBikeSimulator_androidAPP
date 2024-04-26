@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_local"
+        android:title="@string/local" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:title="@string/history" />
+
+    <item
+    android:id="@+id/navigation_sim"
+    android:title="@string/simulation" />
+
+</menu>

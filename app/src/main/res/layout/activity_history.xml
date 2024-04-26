@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".History">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+        </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".History">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="60dp" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart_pressure"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/chart_temperature"
+            android:layout_marginTop="24dp" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="400dp"
+            android:layout_height="175dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/chart_pressure"
+            android:layout_marginTop="22dp"></ListView>
+
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/blue_light"
+        app:menu="@menu/nav_bar" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/blue_light"
+        android:layout_height="?attr/actionBarSize" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
